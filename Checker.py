@@ -16,6 +16,9 @@ with open('proprietary-files.txt', 'r') as f:
             print(line)
             match_count += 1
             diff_count -= 1
+        
+        else :
+            print("!!"+line)
 
 print(f"match: {match_count}")
 print(f"diff : {diff_count}")
